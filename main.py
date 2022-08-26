@@ -1,20 +1,17 @@
 import turtle
+
 mainTurtle = turtle.Turtle()
+turtle.penup()
+turtle.goto(45,80)
+turtle.pendown()
+turtle.color("purple")
 
-def maxsim(x,y):
-    mainTurtle.pencolor('orange')
-    mainTurtle.penup()
-    mainTurtle.goto(-100, -100)
-    mainTurtle.pendown()
-    mainTurtle.fillcolor('orange')
-    mainTurtle.begin_fill
-    mainTurtle.left(60)
-    mainTurtle.forward(200)
-    mainTurtle.right(120)
-    mainTurtle.forward(200)
-    mainTurtle.right(120)
-    mainTurtle.forward(200)
-    mainTurtle.end_fill
-
+turtle.forward(100)
+turtle.left(70)
+turtle.forward(100)
+turtle.left(110)
+turtle.forward(100)
+turtle.left(70)
+turtle.forward(100)
 mainTurtle.hideturtle()
 turtle.exitonclick()
